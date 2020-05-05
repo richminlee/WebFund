@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h3>My Registration Form</h3>
+        <form action="RegistrationForm" method="POST">
+            <p>First Name: <input type="text" name="firstName"></p>
+            <p>Last Name: <input type="text" name="lastName"></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>Password: <input type="password" name="password"></p>
+            <p>PW Confirm: <input type="password" name="pwConfirm"></p>
+            <p>Birthday: <input type="date" name="birthday"></p>
+            <p>Male <input type="radio" name="male">
+                Female <input type="radio" name="female">
+                Other <input type="radio" name="other"></p>
+            <p>A short description about yourself</p>
+            <p><textarea name="desc"></textarea></p>
+            <p>Favorite Language: <select name="type">
+                <option value="javascript">Javascript</option>
+                <option value="python">Python</option>
+                <option value="mern">MERN</option>
+                <option value="net">NET</option>
+            </select></p>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

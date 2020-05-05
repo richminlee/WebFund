@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    background-color: #9B7EAA;
+}
+header{
+    background-color: #452B51;
+    text-align: center;
+    padding: 30px;
+}
+#me{
+    width: 450px;
+    margin: 20px;
+}
+li{
+    display: inline-block;
+
+}
+.socMed{
+    width: 40px;
+    border-radius: 20px;
+    margin: 0px 15px;
+}
+
+.sectop{
+    width: 320px;
+    display: block;
+}
+body{
+    text-align: center;
+}
+section{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+.trio{
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.lang{
+    width: 60px;
+}
+h2{
+    margin: 5px;
+}
+#cr{
+    color: #452B51;
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My First Website at Coding Dojo">
+    <title>Powerlifting</title>
+</head>
+<body>
+    <header>
+        <h1>Get Stronger</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. 
+            Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis 
+            sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. 
+            Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per 
+            conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. </p>
+        <img src="https://www.uspa.net/img/logo.png" alt="USPA's Logo">
+        <a href="https://www.uspa.net/">USPA</a>
+    </header>
+    <Main>
+        <h3>Main Lifts</h3>
+        <ul>
+            <li>Squat</li>
+            <li>Bench Press</li>
+            <li>Deadlift</li>
+            <li>Overhead Press</li>
+        </ul>
+        <h3>Accessory Lifts</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Squat</th>
+                    <th>Bench Press</th>
+                    <th>Deadlift</th>
+                    <th>Overhead Press</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Romanian Deadlifts</td>
+                    <td>Dumbbell Incline Press</td>
+                    <td>Pullups</td>
+                    <td>Side Lateral Raises</td>
+                </tr>
+                <tr>
+                    <td>Lunges</td>
+                    <td>Dips</td>
+                    <td>Barbell Rows</td>
+                    <td>Upright Rows</td>
+                </tr>
+                <tr>
+                    <td>Leg Press</td>
+                    <td>Cable Flyes</td>
+                    <td>T-Bar Rows</td>
+                    <td>Barbell Shrugs</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </Main>
+    <footer>
+        <h3>Short Survey</h3>
+        <form action="Powerlift" method="POST">
+            <p>First Name: <input type="text" name="firstName"></p>
+            <p>Last Name: <input type="text" name="lastName"></p>
+            <p>Email: <input type="email" name="email"></p>
+            <p>Male <input type="radio" name="male">
+                Female <input type="radio" name="female">
+                Other <input type="radio" name="other"></p>
+            <p>What did you think?: </p>
+            <p><textarea name="desc"></textarea></p>
+            <h3>Favorite Exercise</h3>
+            <p>Squat<input type="checkbox" name="squat">
+                Bench Press<input type="checkbox" name="bench">
+                Deadlift<input type="checkbox" name="deadlift">
+                Overhead Press<input type="checkbox" name="ohpress"></p>
+            <input type="submit" value="Submit">
+        </form>
+    </footer>
+</body>
+</html>
